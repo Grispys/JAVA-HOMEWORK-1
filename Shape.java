@@ -20,6 +20,10 @@ public abstract class Shape {
         this.colour = colour;
     }
 
+    public boolean isFilled(){
+        return(this.filled);
+    }
+
     public void setFilled(boolean filled){
         this.filled = filled;
     }
