@@ -33,4 +33,11 @@ public class Circle extends Shape {
         double circumference = (2*Math.PI*radius);
         return(circumference);
     }
+
+    @Override
+    public String toString(){
+        double area = this.getArea();
+        double circumference = this.getPerimeter();
+        return("Area: "+ area + " Circumference: " + circumference);
+    }
 }

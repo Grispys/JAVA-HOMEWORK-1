@@ -28,7 +28,5 @@ public abstract class Shape {
 
     public abstract double getPerimeter();
 
-    public String toString(){
-        return(this.colour + " + " + this.filled);
-    }
+    public abstract String toString();
 }
