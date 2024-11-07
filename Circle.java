@@ -17,7 +17,7 @@ public class Circle extends Shape {
 
     public double getRadius(){
         return(this.radius);
-    } //this is a test commentr
+    }
 
     public void setRadius(double radius){
         this.radius = radius;
